@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <h2>
-      {{ pokemon.name }}
+      {{ unique_squirrel_id }}
     </h2>
     <h3>
       {{ id }}
@@ -11,7 +11,7 @@
 
 <script setup>
 const props = defineProps({
-  pokemon: Object,
+  squirrel: Object,
   id: Number
 })
 </script>
